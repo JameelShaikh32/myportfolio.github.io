@@ -13,7 +13,7 @@ body {
 
 .container {
     width: 300px;
-    height: 780px;
+    height: 100%;
     background-image: url(../img/bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@ body {
     margin: 0;
     padding: 0;
     width: 300px;
-    height: 780px;
+    height: 100%;
     background-color: rgba(12, 12, 85, 0.7);
     text-align: center;
     color: rgb(214, 213, 213);
@@ -107,11 +107,12 @@ body {
 .details {
     margin-left: 290px;
     width: 90%;
-    height: 780px;
+    height: 100%;
     background-color: white;
 }
 
 .details #portf {
+    height: auto;
     padding: 20px;
     color: rgb(73, 73, 73);
 }
