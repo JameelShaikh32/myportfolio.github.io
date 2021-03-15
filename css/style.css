@@ -47,7 +47,9 @@ body {
     margin-top: 20px;
     width: 95%;
     text-align: right;
+    display: inline-block;
     overflow: hidden;
+    transition: 1s;
 }
 
 .navbar nav a {
@@ -55,11 +57,7 @@ body {
     font-size: 18px;
     color: white;
     margin-right: 50px;
-    padding: 1px;
-}
-
-.navbar nav a:first-child {
-    border-bottom: 2px solid white;
+    padding: 5px;
 }
 
 .navbar nav a:hover {
@@ -70,6 +68,18 @@ body {
 .navbar nav a:active {
     background-color: white;
     color: black;
+}
+
+.navbar #menu-btn {
+    padding: 20px 20px 30px 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar nav #closeMenu {
+    padding: 10px;
+    cursor: pointer;
+    display: none;
 }
 
 
@@ -103,4 +113,30 @@ body {
 .content #btn:hover {
     background-color: rgb(230, 230, 4);
     color: black;
+}
+
+
+/* Media Queries  */
+
+@media (max-width: 600px) {
+    .content {
+        text-align: left;
+        padding: 120px 20px;
+        font-size: 20px;
+    }
+    .navbar nav {
+        height: 300px;
+        width: 200px;
+        background-color: black;
+        text-align: left;
+        position: absolute;
+        right: -200px;
+        top: 0px;
+    }
+    .navbar #menu-btn {
+        display: block;
+    }
+    .navbar nav #closeMenu {
+        display: block;
+    }
 }

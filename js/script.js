@@ -1,1 +1,9 @@
-window.alert("If you are opening this website on a mobile phone switch on desktop mode on your browser.");
+var nav = document.getElementById("navbars");
+
+function openMenu() {
+    nav.style.right = "0px";
+}
+
+function closeMenu() {
+    nav.style.right = "-200px";
+}
