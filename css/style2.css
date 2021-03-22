@@ -459,3 +459,10 @@ body {
 .portf-page #portf .works #work3 #jeans a:hover {
     color: rgb(6, 6, 110);
 }
+
+@media (max-width: 600px){
+    .cont-page #cont-page-list{
+           display: block;
+           font-size: 16px;
+    }
+}
