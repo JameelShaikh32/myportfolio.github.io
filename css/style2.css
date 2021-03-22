@@ -335,7 +335,7 @@ body {
 
 .portf-page {
     width: 100vw;
-    background-color: whitesmoke;
+    background-color: rgb(193, 212, 247);
 }
 
 .portf-page #portf {
@@ -352,7 +352,7 @@ body {
 
 .portf-page #portf .works #work1 img {
     position: relative;
-    width: 300px;
+    width: 250px;
     height: 150px;
     padding-top: 10px;
     bottom: 20px;
@@ -391,7 +391,7 @@ body {
 
 .portf-page #portf .works #work2 img {
     position: relative;
-    width: 300px;
+    width: 250px;
     height: 150px;
     padding-top: 10px;
     bottom: 20px;
@@ -430,7 +430,7 @@ body {
 
 .portf-page #portf .works #work3 img {
     position: relative;
-    width: 300px;
+    width: 250px;
     height: 150px;
     padding-top: 10px;
     bottom: 20px;
