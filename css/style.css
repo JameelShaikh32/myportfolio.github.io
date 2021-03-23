@@ -45,7 +45,7 @@ body {
 
 .navbar nav {
     margin-top: 20px;
-    width: 95%;
+    width: 100%;
     text-align: right;
     display: inline-block;
     overflow: hidden;
@@ -87,7 +87,7 @@ body {
 
 .content {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin: auto;
     padding: 120px;
     text-align: center;
@@ -127,11 +127,12 @@ body {
     .navbar nav {
         height: 300px;
         width: 200px;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.767);
         text-align: left;
         position: absolute;
-        right: -200px;
-        top: 0px;
+        display: none;
+        top: 30px;
+        transition: 1s;
     }
     .navbar #menu-btn {
         display: block;
