@@ -300,6 +300,7 @@ body {
     }
 }
 
+/* For Mobile Device */
 
 /* Contact Page */
 
@@ -342,7 +343,7 @@ body {
 }
 
 .portf-page #portf {
-    padding: 20px;
+    padding: 15px;
     background-color: rgb(219, 234, 241);
 }
 
