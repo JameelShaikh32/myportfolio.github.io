@@ -36,7 +36,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-top: 10%;
+    margin-top: 8%;
     padding: 20px;
     transition: 0.5s;
 }
@@ -52,6 +52,10 @@ body {
 
 .container .sidebar a h2:hover {
     color: rgb(240, 240, 4);
+}
+
+.container .sidebar a #designation {
+    color: rgb(201, 201, 201);
 }
 
 .container .sidebar .links {
@@ -72,7 +76,7 @@ body {
 }
 
 .container .sidebar .links a:hover {
-    font-size: 18px;
+    font-size: 22px;
     color: rgb(240, 240, 4);
 }
 
@@ -87,7 +91,7 @@ body {
 .container .sidebar .social-btns {
     text-align: center;
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
     font-size: 20px;
 }
 
@@ -290,6 +294,9 @@ body {
         width: 100vw;
         text-align: center;
     }
+    .container .sidebar a {
+        font-size: 21px;
+    }
     .container .sidebar .links #full-scrn {
         display: none;
     }
@@ -300,7 +307,6 @@ body {
     }
 }
 
-/* For Mobile Device */
 
 /* Contact Page */
 
@@ -343,7 +349,7 @@ body {
 }
 
 .portf-page #portf {
-    padding: 15px;
+    padding: 20px;
     background-color: rgb(219, 234, 241);
 }
 

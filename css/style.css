@@ -32,20 +32,39 @@ body {
     display: flex;
     font-size: 22px;
     justify-content: space-between;
+    box-shadow: 0px 5px 15px rgb(194, 191, 191);
     transition: 1s;
 }
 
 .navbar img {
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    border: 2px solid rgba(51, 51, 51, 0.733);
+    box-shadow: 5px 5px 15px rgb(59, 59, 59);
     margin: 15px;
 }
 
+.navbar h3 {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 90px;
+    left: 90px;
+    justify-content: left;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 800px;
+    font-size: 26px;
+    text-shadow: 0px 5px 10px rgb(26, 25, 25);
+}
+
+.navbar h3 a {
+    text-decoration: none;
+    color: rgb(230, 230, 4);
+}
+
 .navbar nav {
-    margin-top: 20px;
-    width: 100%;
+    width: 40%;
     text-align: right;
     display: inline-block;
     overflow: hidden;
@@ -55,19 +74,15 @@ body {
 .navbar nav a {
     text-decoration: none;
     font-size: 18px;
+    font-weight: 800px;
     color: white;
     margin-right: 50px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .navbar nav a:hover {
-    border-bottom: 2px solid rgb(230, 230, 4);
-    color: rgb(230, 230, 4);
-}
-
-.navbar nav a:active {
-    background-color: white;
-    color: black;
+    background-color: rgb(230, 230, 4);
+    color: rgb(0, 0, 0);
 }
 
 .navbar #menu-btn {
@@ -98,20 +113,22 @@ body {
 }
 
 .content #btn {
+    position: relative;
+    top: 30px;
     width: 140px;
-    height: 40px;
-    background-color: white;
-    padding: 10px;
-    text-decoration: none;
+    height: 50px;
+    background-color: rgb(230, 230, 4);
     color: black;
-    font-size: 16px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 8px;
     transition: 0.8s;
 }
 
 .content #btn:hover {
-    background-color: rgb(230, 230, 4);
+    background-color: rgb(201, 201, 0);
     color: black;
 }
 
@@ -132,7 +149,15 @@ body {
         position: absolute;
         display: none;
         top: 30px;
-        transition: 1s;
+        box-shadow: 5px 5px 5px 5px 15px rgb(26, 25, 25);
+        border-radius: 10px 0px 0px 10px;
+        z-index: 2;
+    }
+    .navbar nav a {
+        text-indent: 10px;
+        margin: 10px;
+        display: block;
+        border-radius: 5px;
     }
     .navbar #menu-btn {
         display: block;
