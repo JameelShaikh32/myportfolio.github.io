@@ -101,9 +101,26 @@ body {
 }
 
 .container .sidebar .social-btns i {
+    font-size: 26px;
     margin-top: 10px;
     padding: 10px;
     transition: 0.5s;
+}
+
+.container .sidebar .social-btns a .fa-facebook:hover {
+    color: rgb(71, 71, 250);
+}
+
+.container .sidebar .social-btns a .fa-instagram:hover {
+    color: crimson;
+}
+
+.container .sidebar .social-btns a .fa-github:hover {
+    color: black;
+}
+
+.container .sidebar .social-btns a .fa-twitter:hover {
+    color: rgb(0, 183, 255);
 }
 
 .container .sidebar .social-btns i:hover {
@@ -295,7 +312,10 @@ body {
         text-align: center;
     }
     .container .sidebar a {
-        font-size: 21px;
+        font-size: 20px;
+    }
+    .container .sidebar a .fab {
+        font-size: 32px;
     }
     .container .sidebar .links #full-scrn {
         display: none;
