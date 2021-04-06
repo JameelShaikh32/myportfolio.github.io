@@ -332,32 +332,38 @@ body {
 
 .cont-page {
     width: 100vw;
-    background-color: rgb(219, 234, 241);
-    border: 2px solid black;
+    background-color: slateblue;
+    border: 2px solid white;
     padding: 20px;
 }
 
 .cont-page h1 {
-    font-size: 36px;
+    font-size: 38px;
+    color: springgreen;
 }
 
 .cont-page p {
-    font-size: 20px;
+    font-size: 22px;
     padding: 5px;
+    color: white;
 }
 
 .cont-page #cont-page-list {
     display: block;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     text-align: left;
     padding: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .cont-page #cont-page-list a {
     text-decoration: none;
-    color: rgb(3, 3, 46);
+    color: rgb(255, 255, 255);
+}
+
+.cont-page #cont-page-list a:hover {
+    color: springgreen;
 }
 
 
