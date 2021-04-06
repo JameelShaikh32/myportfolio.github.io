@@ -164,11 +164,7 @@ body {
         display: block;
     }
     .navbar nav h3 {
-        display: none;
         font-size: 18px;
-    }
-    .navbar nav h3::after {
-        content: "JS";
     }
     .navbar #menu-btn {
         display: block;
