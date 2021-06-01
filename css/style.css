@@ -75,7 +75,7 @@ body {
     font-size: 18px;
     font-weight: 800px;
     color: white;
-    margin-right: 50px;
+    margin-right: 40px;
     padding: 10px;
 }
 
@@ -165,7 +165,7 @@ body {
     .content {
         text-align: left;
         padding: 120px 20px;
-        font-size: 20px;
+        font-size: 22px;
     }
     .navbar nav {
         height: 300px;
@@ -183,11 +183,13 @@ body {
         margin: 10px;
         display: block;
     }
-    .navbar nav h3 {
-        font-size: 18px;
+    .navbar h3 {
+        display: none;
     }
     .navbar #menu-btn {
+        position: absolute;
         display: block;
+        right: 20px;
     }
     .navbar nav #closeMenu {
         display: block;

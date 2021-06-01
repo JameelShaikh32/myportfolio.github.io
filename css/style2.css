@@ -73,6 +73,7 @@ body {
     text-decoration: none;
     padding: 5px;
     color: whitesmoke;
+    border-radius: 3px;
     transition: 0.5s;
 }
 
@@ -152,7 +153,7 @@ body {
 }
 
 .details #portf .works #work1 img {
-    width: 300px;
+    width: 350px;
     height: auto;
     padding-top: 10px;
     padding-right: 10px;
@@ -191,7 +192,7 @@ body {
 }
 
 .details #portf .works #work2 img {
-    width: 300px;
+    width: 350px;
     height: auto;
     padding-top: 10px;
     padding-right: 10px;
@@ -230,7 +231,7 @@ body {
 }
 
 .details #portf .works #work3 img {
-    width: 300px;
+    width: 350px;
     height: auto;
     padding-top: 10px;
     padding-right: 10px;
@@ -412,6 +413,10 @@ body {
     font-size: 24px;
 }
 
+.portf-page #portf .works #work1 #hazara a h4 {
+    font-size: 18px;
+}
+
 .portf-page #portf .works #work1 #hazara a:hover {
     color: rgb(6, 6, 110);
 }
@@ -451,6 +456,10 @@ body {
     font-size: 24px;
 }
 
+.portf-page #portf .works #work2 #soulofart a h4 {
+    font-size: 18px;
+}
+
 .portf-page #portf .works #work2 #soulofart a:hover {
     color: rgb(6, 6, 110);
 }
@@ -488,6 +497,10 @@ body {
 
 .portf-page #portf .works #work3 #jeans a h2 {
     font-size: 24px;
+}
+
+.portf-page #portf .works #work3 #jeans a h4 {
+    font-size: 18px;
 }
 
 .portf-page #portf .works #work3 #jeans a:hover {
