@@ -506,3 +506,15 @@ body {
 .portf-page #portf .works #work3 #jeans a:hover {
     color: rgb(6, 6, 110);
 }
+
+@media (max-width: 600px) {
+    .portf-page #portf .works #work1 #hazara ul li {
+        font-size: 16px;
+    }
+    .portf-page #portf .works #work2 #soulofart ul li {
+        font-size: 16px;
+    }
+    .portf-page #portf .works #work3 #jeans ul li {
+        font-size: 16px;
+    }
+}
