@@ -1,9 +1,4 @@
 var nav = document.getElementById("navbars");
-var loader = document.getElementById("pre-loader");
-
-window.addEventListener('load', function() {
-    loader.style.display = "none";
-});
 
 function openMenu() {
     nav.style.right = "0px";
