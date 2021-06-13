@@ -38,6 +38,12 @@ body {
     color: rgb(79, 3, 114);
 }
 
+@media (max-width: 600px) {
+    #pre-loader {
+        background-size: 60%;
+    }
+}
+
 
 /* ---------------- Navbar CSS ----------------- */
 

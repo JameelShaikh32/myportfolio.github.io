@@ -26,6 +26,23 @@ body {
     z-index: 100;
 }
 
+#pre-loader h1 {
+    position: absolute;
+    top: 60%;
+    font-size: 22px;
+    font-weight: 600px;
+    color: rgb(79, 3, 114);
+}
+
+@media (max-width: 600px) {
+    #pre-loader {
+        background-size: 60%;
+    }
+}
+
+
+/* -------------- Container CSS --------------- */
+
 .container {
     width: 300px;
     height: 100vh;
