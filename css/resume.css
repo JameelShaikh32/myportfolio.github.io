@@ -1,0 +1,556 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+
+/* ---------------- Pre - Loader --------------- */
+
+#pre-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white url("../img/loader2.gif") no-repeat center center;
+    background-size: 22%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#pre-loader h1 {
+    position: absolute;
+    top: 60%;
+    font-size: 22px;
+    font-weight: 600px;
+    color: rgb(79, 3, 114);
+}
+
+@media (max-width: 600px) {
+    #pre-loader {
+        background-size: 60%;
+    }
+}
+
+.container {
+    width: 80%;
+    height: auto;
+    margin: 50px auto 50px auto;
+    display: flex;
+    box-shadow: 0 2px 10px black, inset 0 4px 15px black;
+}
+
+
+/* ----------------- Left Panel ----------------- */
+
+.container .left-panel {
+    width: 30%;
+    background-color: black;
+    color: white;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    padding-top: 80px;
+}
+
+#profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px rgba(99, 127, 248, 0.5), inset 8px 0 5px rgba(255, 255, 255, 0.5);
+}
+
+#details {
+    padding: 22px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#location {
+    padding: 8px 0;
+}
+
+#email {
+    padding: 8px 0;
+}
+
+#phone {
+    padding: 8px 0;
+}
+
+#location span {
+    letter-spacing: 1px;
+    padding-left: 5px;
+}
+
+#email span {
+    letter-spacing: 1px;
+    padding-left: 5px;
+}
+
+#email span a {
+    text-decoration: none;
+    color: white;
+}
+
+#phone span {
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+
+#skills {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    display: flex;
+    position: relative;
+}
+
+#title #box {
+    width: 30px;
+    height: 30px;
+    background-color: whitesmoke;
+    color: black;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title #box i {
+    transform: rotate(-45deg);
+}
+
+#title h2 {
+    position: relative;
+    left: 20px;
+}
+
+#title span {
+    position: absolute;
+    top: 18px;
+    left: 140px;
+    width: 100px;
+    height: 2px;
+    background-color: white;
+}
+
+#title #wrap-lang {
+    width: 80px;
+    left: 200px;
+    background-color: white;
+}
+
+#skills .skill {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#skills .skill h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+
+#skills .skill #bar {
+    width: 120px;
+    height: 18px;
+    background-color: rgb(58, 58, 58);
+}
+
+#skills .skill #bar #html {
+    width: 90%;
+    height: 100%;
+    background-color: springgreen;
+    animation: html 0.5s ease 0.8s;
+}
+
+#skills .skill #bar #css {
+    width: 70%;
+    height: 100%;
+    background-color: cyan;
+    animation: css 0.7s ease 0.8s;
+}
+
+#skills .skill #bar #js {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(250, 192, 84);
+    animation: js 0.9s ease 0.8s;
+}
+
+#skills .skill #bar #boot {
+    width: 55%;
+    height: 100%;
+    background-color: rgb(255, 104, 104);
+    animation: boot 1.1s ease 0.8s;
+}
+
+#skills .skill #bar #py {
+    width: 35%;
+    height: 100%;
+    background-color: rgb(241, 255, 47);
+    animation: py 1.3s ease 0.8s;
+}
+
+#skills .skill #bar #java {
+    width: 35%;
+    height: 100%;
+    background-color: rgb(225, 77, 255);
+    animation: java 1.5s ease 0.8s;
+}
+
+@keyframes html {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+@keyframes js {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes boot {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 55%;
+    }
+}
+
+@keyframes py {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 35%;
+    }
+}
+
+@keyframes java {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 35%;
+    }
+}
+
+#language {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#language #lang {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#language #lang h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+
+#language #lang #stars i {
+    font-weight: 500px;
+    transition: 0.5s;
+}
+
+
+/* ----------------- Right Panel ----------------- */
+
+.container .right-panel {
+    width: 70%;
+    background-color: whitesmoke;
+}
+
+.container .right-panel #name {
+    padding: 40px 0 0 40px;
+}
+
+.container .right-panel #name h1 {
+    font-size: 40px;
+    color: rgb(80, 80, 80);
+}
+
+#rtitle {
+    position: relative;
+    display: flex;
+    padding: 30px 0 0 40px;
+}
+
+#rtitle #rbox {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rtitle #rbox i {
+    transform: rotate(-45deg);
+}
+
+#rtitle h2 {
+    position: relative;
+    left: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+#rtitle span {
+    position: absolute;
+    top: 50px;
+    left: 320px;
+    width: 200px;
+    height: 2px;
+    background-color: black;
+}
+
+
+/* ----------------------- EDUCATION SECTION ------------------- */
+
+.education {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 0 120px;
+}
+
+.education ul {
+    list-style: none;
+}
+
+.education ul li:first-child {
+    margin-top: 0;
+}
+
+.education ul li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.education ul li #degreeDate {
+    display: flex;
+}
+
+.education ul li #degree {
+    font-size: 15px;
+}
+
+.education ul li #degreeclg {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: -70px;
+}
+
+.education ul li #degreeclg h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.education ul li #board {
+    display: flex;
+}
+
+.education ul li #stream {
+    font-size: 15px;
+}
+
+.education ul li #clg {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: -85px;
+}
+
+.education ul li #school {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: -103px;
+}
+
+.education ul li #school h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.education ul li #clg h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.education ul li h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.education ul li p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* ----------------------- CERTIFICATE SECTION ------------------- */
+
+.certificate {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 0 120px;
+}
+
+.certificate #cert:first-child {
+    margin-top: 0;
+}
+
+.certificate #cert {
+    margin-top: 20px;
+}
+
+.certificate #cert h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.certificate #cert p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* ----------------------- ACHIEVEMENTS SECTION ------------------- */
+
+.achieve {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 0 120px;
+}
+
+.achieve #achv:first-child {
+    margin-top: 0;
+}
+
+.achieve #achv {
+    margin-top: 20px;
+}
+
+.achieve #achv h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.achieve #achv p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* ------------------------------ CERTIFICATES ----------------------- */
+
+#cyber {
+    display: none;
+    position: absolute;
+    top: 75%;
+    left: 22%;
+    width: 800px;
+    height: 600px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+#cyber img {
+    box-shadow: 0 12px 10px rgba(0, 0, 0, 0.8), inset 0 12px 15px rgba(0, 0, 0, 0.8);
+    border: 5px solid black;
+}
+
+#python {
+    display: none;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    width: 1000px;
+    height: 600px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+#python img {
+    box-shadow: 0 12px 10px rgba(0, 0, 0, 0.8), inset 0 12px 15px rgba(0, 0, 0, 0.8);
+    border: 5px solid black;
+}
+
+#cyberKart {
+    display: none;
+    position: absolute;
+    top: 75%;
+    left: 22%;
+    width: 800px;
+    height: 600px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+#cyberKart img {
+    box-shadow: 0 12px 10px rgba(0, 0, 0, 0.8), inset 0 12px 15px rgba(0, 0, 0, 0.8);
+    border: 5px solid black;
+}
+
+#oddballs {
+    display: none;
+    position: absolute;
+    top: 75%;
+    left: 22%;
+    width: 800px;
+    height: 600px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+#oddballs img {
+    box-shadow: 0 12px 10px rgba(0, 0, 0, 0.8), inset 0 12px 15px rgba(0, 0, 0, 0.8);
+    border: 5px solid black;
+}
