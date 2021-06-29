@@ -597,8 +597,7 @@ body {
     ;
     .container .right-panel .education ul li #degreeclg {
         width: 100%;
-        display: flex;
-        flex-direction: column;
+        font-size: 14px;
         margin-left: 100px;
         justify-content: center;
     }
