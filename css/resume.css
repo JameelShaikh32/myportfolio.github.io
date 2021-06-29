@@ -554,3 +554,53 @@ body {
     box-shadow: 0 12px 10px rgba(0, 0, 0, 0.8), inset 0 12px 15px rgba(0, 0, 0, 0.8);
     border: 5px solid black;
 }
+
+
+/* --------------------- Media Queries ---------------------- */
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+    }
+    .container .left-panel {
+        width: 100%;
+        height: auto;
+    }
+    .container .left-panel #profile {
+        text-align: center;
+    }
+    .container .left-panel #details {
+        text-align: center;
+    }
+    #title {
+        width: 300px;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .container .right-panel {
+        width: 100%;
+        overflow: hidden;
+    }
+    .container .right-panel #name h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .container .right-panel #rtitle {
+        padding: 20px 0 0 20px;
+    }
+    .container .right-panel .education {
+        padding: 25px 0 0 25px;
+    }
+    .container .right-panel .education ul li #degreeclg {
+        left: -25px;
+    }
+    .container .right-panel .education ul li #clg {
+        left: -42px;
+    }
+    .container .right-panel .education ul li #school {
+        left: -59px;
+    }
+}
