@@ -595,12 +595,17 @@ body {
         padding: 25px 0 0 25px;
     }
     .container .right-panel .education ul li #degreeclg {
-        left: -25px;
+        width: 100%;
+        margin-left: 30px;
+        justify-content: center;
     }
     .container .right-panel .education ul li #clg {
-        left: -42px;
+        width: 100%;
+        margin-left: 15px;
+        justify-content: center;
     }
     .container .right-panel .education ul li #school {
-        left: -59px;
+        width: 100%;
+        justify-content: center;
     }
 }
